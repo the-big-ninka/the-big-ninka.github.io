@@ -26,3 +26,11 @@ p {
   font-size: 20px;
   font-family: 'Montserrat-ExtraBold'
 }
+
+ul {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  list-style-position: inside;
+  font-family: 'Montserrat-ExtraBold'
+}
