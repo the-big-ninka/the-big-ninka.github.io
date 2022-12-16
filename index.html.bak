@@ -78,7 +78,6 @@
          li {
 		 font-family: 'Montserrat-ExtraBold';
          font-size: 18px;
-		 text-align: left;
          }
          a {
          color: #0085b0;
