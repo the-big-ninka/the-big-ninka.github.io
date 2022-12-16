@@ -4,7 +4,6 @@
 	  <link rel="icon" href="https://nin.wtf/favicon.png">
       <style>
          body {
-         font-family: Arial, sans-serif;
          margin: 0;
          padding: 0;
          background-image: url('https://nin.wtf/croatia.jpg');
@@ -15,6 +14,12 @@
          justify-content: center;
          background-color: rgba(0, 0, 0, 0.5);
          }
+		 @font-face {
+			font-family: 'Montserrat-ExtraBold';
+			src: url('Montserrat-ExtraBold.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		 }
          .container {
          max-width: 800px;
          margin: 0 auto;
@@ -53,13 +58,16 @@
          }
          }
          h1 {
+		 font-family: 'Montserrat-ExtraBold';
          text-align: center;
          }
          p {
+		 font-family: 'Montserrat-ExtraBold';
          font-size: 18px;
          line-height: 1.5;
          }
          h2 {
+		 font-family: 'Montserrat-ExtraBold';
          font-size: 24px;
          margin-bottom: 10px;
          }
@@ -68,7 +76,9 @@
          padding: 0;
          }
          li {
+		 font-family: 'Montserrat-ExtraBold';
          font-size: 18px;
+		 text-align: left;
          }
          a {
          color: #0085b0;
