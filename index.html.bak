@@ -13,13 +13,14 @@
          body {
          margin: 0;
          padding: 0;
-         background-image: url('https://nin.wtf/croatia.jpg');
+         background-image: url('Wallpaper1.png');
          background-size: cover;
+		 background-position: center; 
          color: #fff;
          display: flex;
          align-items: center;
          justify-content: center;
-         background-color: rgba(0, 0, 0, 0.5);
+         background-color: rgba(0, 0, 0, 0.0);
          }
 		 @font-face {
 			font-family: 'Montserrat-ExtraBold';
@@ -67,20 +68,24 @@
          h1 {
 		 font-family: 'Montserrat-ExtraBold';
          text-align: center;
+		 text-shadow: 4px 4px 4px #000000;
          }
          p {
 		 font-family: 'Montserrat-ExtraBold';
          font-size: 18px;
          line-height: 1.5;
+		 text-shadow: 4px 4px 4px #000000;
          }
          h2 {
 		 font-family: 'Montserrat-ExtraBold';
          font-size: 24px;
          margin-bottom: 10px;
+		 text-shadow: 4px 4px 4px #000000;
          }
          ul {
          list-style: none;
          padding: 0;
+		 text-shadow: 4px 4px 4px #000000;
          }
          li {
 		 font-family: 'Montserrat-ExtraBold';
@@ -120,7 +125,7 @@
          <div class="profile-picture"></div>
          <h1>Welcome to nin.wtf!</h1>
          <p>Computer science enthusiast and prompt artist!</p>
-		 <p>Perpetually sleepy...<\p>
+		 <p>Perpetually sleepy...</p>
          <h2>Contact Info</h2>
          <p>You can find me here:</p>
          <ul>
