@@ -90,6 +90,7 @@
          li {
 		 font-family: 'Montserrat-ExtraBold';
          font-size: 18px;
+		 text-shadow: 4px 4px 4px #000000;
          }
          a {
          color: #0085b0;
